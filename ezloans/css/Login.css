@@ -1,0 +1,173 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+@font-face {
+    font-family: 'Convergence';
+    src: url('../fonts/Convergence-Regular.ttf');
+	
+} 
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Regular.ttf');
+} 
+
+@font-face {
+    font-family: 'Exo 2';
+    src: url('../fonts/Exo2-Regular.ttf');
+} 
+
+body {
+	/*background-image: url('../images/ezloan-money.jpg');*/
+	background-repeat: none;
+	background-attachment: scroll;
+	background-position: center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover; 
+	box-sizing: border-box;
+	background-color: #222; 
+}
+
+#loginpanel .panel{
+	border: none;
+	border-color: none;
+	background-color: rgba(0,0,0,0.3);
+	color: white;
+	padding: 12px;
+	margin-top: 25px;
+}
+
+#loginpanel .panel-title{
+	padding: 15px 0 0 15px;
+}
+
+#loginpanel .panel-body{
+	padding-top: 16px !important;
+	padding-bottom: 16px !important;
+}
+
+#loginpanel .panel-heading {
+  color: white;
+  background-color: #d9534f !important;
+  border-color: #ddd;
+}
+
+#logindiv {
+	width: 360px; 
+	margin: 0 auto;
+}
+
+@media (max-width: 390px) {
+	#logindiv {
+		width: 220px; 
+	}
+}
+@media (min-width: 391px) and (max-width: 767px) {
+	#logindiv {
+		width: 320px; 	
+	}
+}
+
+header{
+	text-align: center;
+}
+
+header .intro-text {
+	padding-top: 50px;
+}
+
+header .intro-text .intro-lead-in {
+	font-family:'Roboto', sans-serif;
+	font-size: 40px;
+	line-height: 22px;
+	margin-bottom: 10px;
+	color: #de6c0d;
+}
+
+header .intro-text .intro-lead-in .logo{
+	width: auto;
+	height: 70px;
+	margin-bottom: 20px;
+}
+
+header .intro-text .intro-heading {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	font-size: 22px;
+	line-height: 22px;
+	margin-bottom: 15px;
+	color: #fdf5cc;
+}
+
+header .intro-text .intro-subheading {
+	font-family: "Roboto", sans-serif;
+	font-weight: 200;
+	font-size: 18px;
+	line-height: 22px;
+	margin-bottom: 15px;
+	color: rgb(253, 231, 156);
+}
+/* Header Properties */
+
+
+@media (min-width: 768px) {
+	header .intro-text .intro-lead-in {
+		font-family: 'Code', sans-serif;
+		font-weight: bold;
+		font-size: 80px;
+		line-height: 60px;
+		margin-top: 40px;
+		margin-bottom: 10px;
+	}
+
+	header .intro-text .intro-lead-in .logo{
+		width: auto;
+		height: 90px;
+		margin-bottom: 30px;
+	}
+
+	header .intro-text .intro-heading {
+		font-family: 'Montserrat', sans-serif;
+		font-size: 30px;
+		line-height: 30px;
+		margin-top: 30px;
+		margin-bottom: 30px;
+		color: #fdf5cc;
+	}
+}
+/* End Header Properties */
+
+.btn{
+	background: #231204;
+	width: 100px;
+}
+
+#locatelink{
+	color: white;
+	text-align: center;
+	text-decoration: underline;
+}
+
+@font-face {
+    font-family: SkarpaLT;
+    src: url(../fonts/SkarpaLT.ttf);
+}
+
+@font-face {
+    font-family: JosefinSans;
+    src: url(../fonts/JosefinSans.ttf);
+}
+
+@font-face {
+    font-family: GeoSans;
+    src: url(../fonts/GeoSansLight.ttf);
+}
+
+@font-face {
+    font-family: Code;
+    src: url(../fonts/COLD Bold.ttf);
+}
